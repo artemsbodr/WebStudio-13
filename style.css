@@ -129,9 +129,12 @@ color: #FFFFFF;
 
 }
 .section-team{
+    background: rgba(245, 244, 250, 1);
+    top: 1446px;
+    height:  648px;
     padding-top: 94px;
     padding-bottom: 94px;
-    
+    width: 1600px
 }
 .footer{
     padding-top: 60px;
@@ -144,7 +147,12 @@ text-align: center;
 
 }
 .team-list-item{
-width: 270px;
+    background: rgba(255, 255, 255, 1);
+    left: 815px;
+    height:  368px;
+    width: 270px;
+    top: 1632px;
+    border-radius:4px;
 }
 .team-list-img{
     width: 270px;
@@ -294,3 +302,4 @@ gap: 70px;
 padding-bottom: 20px;
 
 }
+
