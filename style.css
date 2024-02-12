@@ -104,10 +104,25 @@ color: #FFFFFF;
 
 
 }
+
 .section-hero{
     padding-top: 200px;
     padding-bottom: 200px;
+
     background-image: url("./Img\ \(12\).png");
+    width: 1600px;
+    height: 600px;
+    top: 80px;
+  
+}
+.section-hero{
+    width: 1600px;
+    height: 600px;
+    top: 80px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+
 }
 .section-hero-btn{
     width: 216px;
@@ -153,7 +168,9 @@ text-align: center;
     width: 270px;
     top: 1632px;
     border-radius:4px;
+        box-shadow: 0 7px 10px -5px rgba(0, 0, 0, 0.14);
 }
+
 .team-list-img{
     width: 270px;
 }
