@@ -44,10 +44,7 @@ justify-content: center;
     justify-content:center;
     gap: 30px;
 }
-.work-list-item{
-    max-width: 400px;
-    margin: 0 auto;
-}
+
 .work-list{
     display: flex;
     flex-wrap:wrap;
