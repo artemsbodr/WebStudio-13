@@ -219,7 +219,7 @@ text-align: center;
 }
 .features-list-item:nth-child(3)::before{
     content:"";
-    background-image:url("img/Group\ 3.png") ;
+    background-image:url("./img/Group\ 3.png") ;
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
