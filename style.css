@@ -103,6 +103,7 @@ color: #FFFFFF;
 }
 
 .section-hero{
+    background-color:#ccc;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: url("./Img\ \(12\).png");
@@ -111,6 +112,9 @@ color: #FFFFFF;
     top: 80px;
     margin: 0 auto;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .section-hero{
     width: 1600px;
@@ -237,7 +241,6 @@ text-align: center;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
-    
 }
 header{
     background-color: #FFFFFF;
@@ -318,4 +321,28 @@ gap: 70px;
 padding-bottom: 20px;
 
 }
+.end-list-img{
+    width: 106px;
+    height: 60px;
+    flex-shrink: 0;
+}
+.list-end{
+    width: 1170px;
+    height: 184px;
+    flex-shrink: 0;
+    width: 1600px;
+    height: 2928px;
+}
+.list-end-item{
+    width: 170px;
+height: 92px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #AFB1B8;
+display: inline-flex;
+padding: 16px 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
 
+}
