@@ -384,4 +384,45 @@ header {
 .icon-team {
   width: 20px;
 }
+.team-social-list-footer{
+  display: block;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.social-iteam-footer{
+  display: flex;
+  background-color:#FFFFFF1A ;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
 
+}
+.social-iteam-footer:hover {
+  background-color: #2196f3;
+}
+.icon-team-footer {
+  fill: #ffffff;
+}
+.icon-team-footer {
+  width: 20px;
+}
+.footer-text{
+  color: #FFF;
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 116px;
+height: 16px;
+padding-left: 516px;
+margin-bottom: 20px;
+}
+.team-social-list-footer {
+  display:flex;
+  width: 206px;
+  height: 44px;
+  gap: 10px;
+  margin-left: 516px;
+}
