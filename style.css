@@ -312,7 +312,8 @@ header {
   display: flex;
   justify-content: center;
   gap: 70px;
-  padding-bottom: 20px;
+  padding-bottom: 48px;
+  padding-top: 94px;
 }
 .end-list-img {
   width: 106px;
@@ -547,6 +548,14 @@ header {
   height: 4px;
   margin-top: 28px;
 }
+.nav-hoverr {
+  border-radius: 2px;
+  background: #2196f3;
+  width: 78px;
+  height: 4px;
+  margin-top: 28px;
+}
+
 
 .input-meil{
  margin-top: 10px;
