@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css"> 
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <header class="header" >
@@ -16,9 +17,9 @@
         <a class="logo" href=""><span class="footer-logo-web">Web</span>Studio</a>
     <nav class="nav">
         <ul class="nav-list">
-            <li class="nav-list-item"><a class="nav-list-link" href="./index.html">Контакт</a></li>
+            <li class="nav-list-item"><a class="nav-list-link" href="./index.html">Студія</a><div class="nav-hover"></div></li>
             <li class="nav-list-item"><a class="nav-list-link" href="./portfolio.html">Партфоліо</a></li>
-            <li class="nav-list-item"><a class="nav-list-link" href="#">Студія</a><div class="nav-hover"></div></li> 
+            <li class="nav-list-item"><a class="nav-list-link" href="#">Контакти</a></li> 
         </ul>
     </nav>
    <ul class="contact-list">
@@ -249,19 +250,20 @@
                 <use href="img/symbol-defs.svg#instagram"></use>
             </svg>           
         </li>
-            <li class="social-iteam-footer">                <svg class="icon-team-footer" width="63" height="45">
-                <use href="img/symbol-defs.svg#twitter"></use>
-            </svg>           
-        </li>
-            <li class="social-iteam-footer">                <svg class="icon-team-footer" width="63" height="45">
-                <use href="img/symbol-defs.svg#facebook"></use>
-            </svg>           
-        </li>
-            <li class="social-iteam-footer">                <svg class="icon-team-footer" width="63" height="45">
-                <use href="img/symbol-defs.svg#linkedin"></use>
-            </svg>           
-        </li>
-        </ul>
+        <li class="social-iteam-footer">                <svg class="icon-team-footer" width="63" height="45">
+            <use href="img/symbol-defs.svg#twitter"></use>
+        </svg>           
+    </li>
+    <li class="social-iteam-footer">                <svg class="icon-team-footer" width="63" height="45">
+        <use href="img/symbol-defs.svg#facebook"></use>
+    </svg>           
+</li>
+<li class="social-iteam-footer">                <svg class="icon-team-footer" width="63" height="45">
+    <use href="img/symbol-defs.svg#linkedin"></use>
+</svg>           
+</li>
+</ul>
+<input class="input-meil" placeholder="E-mail" type="email" name="emeil" id="">
         <address class="address">
             <ul class="address-list">
                 <li class="address-list-item"><a href="#" class="address-list-link">м. Київ, пр-т Лесі Українки, 26</a></li>
@@ -281,6 +283,7 @@
     </button>
     <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
     <form class="modal-form">
+    
         <label class="modal-ladel">Ім'я<input class="modal-input" type="text">
             <svg width="18" height="18">
             <use href="img/symbol-defs.svg#men" ></use>
