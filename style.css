@@ -620,4 +620,5 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.30);
   background: rgba(33, 150, 243, 0.00);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: rgba(255, 255, 255, 0.30); ;
 }
