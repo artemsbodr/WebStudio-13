@@ -392,6 +392,7 @@ header {
 }
 /* ==================footer================================ */
 .team-social-list-footer {
+  float: right;
   display: block;
   justify-content: center;
   gap: 10px;
@@ -414,8 +415,9 @@ header {
 .icon-team-footer {
   width: 20px;
 }
-
+/* ===================================text====================================================== */
 .footer-text {
+  float: right;
   color: #fff;
   font-family: Roboto;
   font-style: normal;
@@ -423,8 +425,19 @@ header {
   line-height: normal;
   width: 116px;
   height: 16px;
-  padding-left: 516px;
+
   margin-bottom: 20px;
+}
+.meil-text{
+  float: right;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
 .team-social-list-footer {
   display: flex;
@@ -612,13 +625,15 @@ header {
   border-color:#2196f3 ;
 }
 .input-meil{
+  display: flex;
   margin-top: 10px;
   width: 358px;
   height: 50px;
-  margin-left: 516px;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.30);
   background: rgba(33, 150, 243, 0.00);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: rgba(255, 255, 255, 0.30); ;
+  float: right;
+  align-items: center;
 }
