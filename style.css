@@ -71,6 +71,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 30px;
+  align-items: center;
 }
 
 .work-list {
@@ -94,6 +95,7 @@ body {
 .header-nav {
   display: flex;
   gap: 93px;
+  
 }
 .nav-list {
   display: flex;
@@ -636,4 +638,34 @@ header {
   color: rgba(255, 255, 255, 0.30); ;
   float: right;
   align-items: center;
+}
+.container {
+  min-width: 320px;
+}
+.container.responsive {
+  max-width: 1140px;
+}
+.container.adaptive {
+  max-width: 320px;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 32px;
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 768px ) {
+  .container.adaptive {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width:  1200px) {
+  .container.adaptive {
+    max-width: 1140px;
+  }
 }
