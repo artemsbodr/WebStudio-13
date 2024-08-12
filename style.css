@@ -649,23 +649,17 @@ header {
   max-width: 320px;
 }
 
-@media screen and (max-width: 480px) {
-  header {
-    width: 100%;
-    background-color: #ffffff;
-    padding-top: 32px;
-    position: fixed;
-  }
-}
+@media (min-width:480px) {  header{
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 32px;
+  position: fixed;
+}}
 
-@media screen and (max-width: 768px ) {
-  .container.adaptive {
-    max-width: 900px;
-  }
-}
+/* Стилі для середніх екранів (планшети, дисплей 768рх і більше) */
 
-@media screen and (max-width:  1200px) {
-  .container.adaptive {
-    max-width: 1140px;
-  }
-}
+@media (min-width: 768px) {}
+
+/* Стилі для дуже великих екранів (ПК з великим монітором, дисплей 1200рх і більше) */
+
+@media (min-width: 1200px) {}
