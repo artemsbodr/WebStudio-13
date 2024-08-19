@@ -97,10 +97,10 @@ body {
   gap: 93px;
   
 }
-.nav-list {
+/* .nav-list {
   display: flex;
   gap: 50px;
-}
+} */
 .contact-list {
   display: flex;
   padding-top: 7px;
@@ -300,11 +300,11 @@ header {
   background: #2196f3;
   color: #ffffff;
 }
-.nav-list {
+/* .nav-list {
   display: flex;
   padding-top: 7px;
   justify-content: space-evenly;
-}
+} */
 .nav-list-link {
   text-decoration: none;
 }
@@ -497,6 +497,24 @@ header {
   display: flex;
   align-items: center;
   margin-top: 20px;
+}
+.modal-button{
+  width: 200px;
+  border-radius: 4px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+
+}
+.modal-text{
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
 }
 .backdrop {
   position: fixed;

@@ -1,0 +1,118 @@
+.team-list {
+  display: flex;
+  gap: 30px;
+}
+
+.section-team {
+  margin: 0 auto;
+  justify-content: center;
+  background: rgb(245, 244, 250);
+  top: 1446px;
+  height: 648px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  width: 1600px;
+}
+
+.team-list-item {
+  background: rgb(255, 255, 255);
+  width: 270px;
+  border-radius: 4px;
+  box-shadow: 0 7px 10px -5px rgba(0, 0, 0, 0.14);
+  padding-bottom: 30px;
+}
+
+.team-list-img {
+  width: 270px;
+}
+
+.team-list-title {
+  padding-top: 30px;
+  color: var(--main-font-color);
+  text-align: center;
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.team-list-text {
+  color: var(--secondary-font-color);
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.social-iteam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-iteam:hover {
+  background-color: #2196f3;
+}
+
+.social-iteam:hover .icon-team {
+  fill: #ffffff;
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon-team {
+  fill: #afb1b8;
+}
+
+.icon-team {
+  width: 20px;
+}
+
+.team-social-list-footer {
+  float: right;
+  display: block;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-iteam-footer {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-iteam-footer:hover {
+  background-color: #2196f3;
+}
+
+.icon-team-footer {
+  fill: #ffffff;
+}
+
+.icon-team-footer {
+  width: 20px;
+}
+
+.team-social-list-footer {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  gap: 10px;
+  margin-left: 516px;
+}/*# sourceMappingURL=placeholders.css.map */
