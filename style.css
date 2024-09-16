@@ -395,7 +395,6 @@ header {
 /* ==================footer================================ */
 .team-social-list-footer {
   float: right;
-  display: block;
   justify-content: center;
   gap: 10px;
   align-items: center;
